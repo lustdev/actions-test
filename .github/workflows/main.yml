@@ -16,7 +16,6 @@ jobs:
       - name: Install Dependencies
         run: |
           df -h
-          du -sh ~/.npm
           npm i no-one-left-behind
           df -h
           du -sh ~/.npm
